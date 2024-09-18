@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "WSDL.SOAPClient",
+  "type": "java.lang.String",
+  "description": "Url para consumir servicio"
+}]}
