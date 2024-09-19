@@ -12,6 +12,7 @@ import jakarta.persistence.Table;
 public class FormaPago {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID_FORMA_PAGO")
     private Long id;
 
     @Column(nullable = false)
